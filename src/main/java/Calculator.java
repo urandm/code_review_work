@@ -18,6 +18,6 @@ public class Calculator {
         return times(a, a);
     }
     public int solver() {
-        return div(dif(60, 40), 4);
+        return div(dif(square(7), 29), 4);
     }
 }
