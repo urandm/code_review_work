@@ -15,10 +15,6 @@ public class Calculator {
         return a * b;
     }
     public int solver(){
-        int result = times(4, 5);
-        result = dif(result, 2);
-        result = add(result, 10);
-        result = div(result, 2);
-        return result;
+        return div(dif(28, 8), 4);
     }
 }
