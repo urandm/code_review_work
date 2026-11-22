@@ -14,7 +14,10 @@ public class Calculator {
     public int times(int a, int b){
         return a * b;
     }
+    public int square(int a) {
+        return times(a, a);
+    }
     public int solver(){
-        return div(dif(28, 8), 4);
+        return div(dif(square(6), 16), 4);
     }
 }
